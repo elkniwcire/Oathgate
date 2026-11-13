@@ -1,0 +1,17 @@
+<Application x:Class="SteamNite.WinUI.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries><XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" /></ResourceDictionary.MergedDictionaries>
+      <SolidColorBrush x:Key="AppSurface" Color="#17191D"/>
+      <SolidColorBrush x:Key="PanelSurface" Color="#202328"/>
+      <SolidColorBrush x:Key="QuietText" Color="#A0A5AF"/>
+      <SolidColorBrush x:Key="Accent" Color="#9CB7EE"/>
+      <SolidColorBrush x:Key="ToggleButtonBackgroundChecked" Color="#9CB7EE"/>
+      <SolidColorBrush x:Key="ToggleButtonBackgroundCheckedPointerOver" Color="#B0C5EE"/>
+      <SolidColorBrush x:Key="ToggleButtonBackgroundCheckedPressed" Color="#8FA8D7"/>
+      <SolidColorBrush x:Key="ToggleButtonForegroundChecked" Color="#17191D"/>
+      <Style TargetType="Button"><Setter Property="CornerRadius" Value="8"/><Setter Property="Padding" Value="16,10"/></Style>
+      <Style TargetType="ToggleButton"><Setter Property="CornerRadius" Value="18"/><Setter Property="Padding" Value="16,8"/></Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

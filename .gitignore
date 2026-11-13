@@ -1,0 +1,17 @@
+data/
+tests/.tmp/
+SteamNite.exe
+SteamNite.Workflow.exe
+scan-*.json
+# Local credentials and environment overrides must never enter a checkpoint.
+*.key
+.env
+.env.*
+!.env.example
+.tools/
+**/bin/
+**/obj/
+artifacts/
+.vs/
+Oathgate.exe
+*.pdb
